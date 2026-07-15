@@ -3,7 +3,6 @@ n = int(input("Cantidad de números a ingresar: "))
 mayores = 0
 menores = 0
 iguales = 0
-vistos = set()
 for i in range(n):
     num = int(input("Número: "))
     if num > 0:
